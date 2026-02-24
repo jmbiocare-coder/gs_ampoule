@@ -2,14 +2,14 @@ import { GoogleGenerativeAI } from "@google/generative-ai"; // 👈 이 줄이 �
 import { NextResponse } from "next/server";
 
 // API 키 설정
-const genAI = new GoogleGenerativeAI("AIzaSyD4QJg-3u3c90krWq_Da_Cf3exJsEFplis");
+const genAI = new GoogleGenerativeAI("AIzaSyCMbIlUihms6hMq5Yu6i9ceCAyv9uNDivc");
 
 export async function POST(req: Request) {
   try {
     const { message } = await req.json();
 
     const genModel = genAI.getGenerativeModel({
-      model: "gemini-1.5-flash", 
+      model: "gemini-2.5-flash", 
       systemInstruction: `
         당신은 JM Biocare의 럭셔리 뷰티 컨설턴트입니다. 아래 규칙을 엄수하세요.
 
