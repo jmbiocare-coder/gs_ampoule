@@ -108,7 +108,7 @@ export default function Home() {
               <div className="space-y-6">
                 <div className="flex gap-4">
                   <span className="text-zinc-300 font-mono text-lg">01</span>
-                  <p className="text-sm text-zinc-600 leading-relaxed">세안 후 토너 정리 뒤, GS 앰플 **한 방울**을 사용하세요.</p>
+                  <p className="text-sm text-zinc-600 leading-relaxed">세안 후 두 방울을 골고루 펴서 바르신 후 주름 부위에는 한 방울 더 사용하세요</p>
                 </div>
                 {/* ... 추가 스텝 생략 가능 (코드 양 조절) ... */}
               </div>
@@ -121,7 +121,7 @@ export default function Home() {
               <div className="space-y-6">
                 <div className="flex gap-4">
                   <span className="text-zinc-500 font-mono text-lg">01</span>
-                  <p className="text-sm text-zinc-300 leading-relaxed">세안 직후 물기가 있을 때 **두 방울**을 사용하세요.</p>
+                  <p className="text-sm text-zinc-300 leading-relaxed">세안 후 두 방울 사용하세요.</p>
                 </div>
               </div>
             </div>
